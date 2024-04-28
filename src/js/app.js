@@ -44,7 +44,7 @@ function crearGaleria() {
 
     // Verificar si el elemento .galeria-imagenes se ha seleccionado correctamente
     if (galeria) {
-        for (let i = 1; i <= 12; i++) {
+        for (let i = 1; i <= 14; i++) {
             const imagen = document.createElement('picture');
             imagen.innerHTML = `  
                 <img loading="lazy" width="200" height="300" src="src/img/fotos/${i}.jpg" alt="imagen galeria">
