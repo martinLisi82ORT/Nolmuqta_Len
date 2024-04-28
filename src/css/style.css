@@ -43,12 +43,17 @@ h2 {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     margin: 0 0 5rem
 }
 
 h3 {
-    font-size: 2.4rem
+    font-size: 3rem
+}
+
+h4 {
+    color: rgb(5, 34, 88);
 }
 
 h1 {
@@ -107,7 +112,7 @@ a {
 
 
 /* Barra fija */
-/* .barra {
+.barra {
     padding-top: 4rem;
 }
 
@@ -117,7 +122,7 @@ a {
         justify-content: space-between;
         align-items: center;
     }
-} */
+}
 
 .contenedor {
     max-width: 120rem;
@@ -144,6 +149,11 @@ a {
 
 
 /** Cursos **/
+.promo {
+    font-size: 3rem;
+    font-style: italic;
+}
+
 .curso {
     padding: 3rem 0;
     border-bottom: 1px solid var(--gris);
@@ -229,7 +239,7 @@ a {
 }
 
 .formulario {
-    background-image: linear-gradient(to top, #c8e4f1 10%, var(--blanco) 100%);   
+    background-image: linear-gradient(to top, #c8e4f1 10%, var(--blanco) 100%);
     margin: -30rem auto 0 auto;
     width: 80%;
     padding: 5rem 5rem 0 5rem;
@@ -237,7 +247,7 @@ a {
     font-size: 1.6rem;
     line-height: 2;
     border-radius: 10px;
-    box-shadow: 15px 15px 15px -9px rgba(0,0,0,0.63);
+    box-shadow: 15px 15px 15px -9px rgba(0, 0, 0, 0.63);
 }
 
 .campo {
@@ -651,7 +661,7 @@ p {
 
 .boton:hover {
     cursor: pointer;
-} 
+}
 
 .servicios {
     scroll-snap-align: center;
@@ -870,3 +880,56 @@ p {
 .visible{
     transform: translateX(0);
 } */
+
+/* Destacados */
+
+.contenedor_destacados {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .contenedor_destacados {
+        width: 80%;
+    }    
+}
+
+@media (min-width: 992px) {
+    .contenedor_destacados {
+        width: 60%;
+    }    
+}
+
+.entrada-nota a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.evento{
+    margin-top: 3rem;
+    margin-block: 2.5rem;
+  
+}
+
+.evento_span {    
+    font-weight: 700;
+    font-size: 3.4rem;
+    color: #1c4668;
+    font-style: italic;
+}
+
+.sep_evento{
+    /* padding: 3rem 0; */
+    border-bottom: 1px solid var(--gris);
+}
+
+
+
+/*/////////////////////////////////////*/
+
