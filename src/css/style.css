@@ -49,7 +49,7 @@ h4 {
 }
 
 h3 {
-    font-size: 3rem
+    font-size: 4rem
 }
 
 h4 {
@@ -921,7 +921,7 @@ p {
 .evento {
     margin-top: 3rem;
     margin-block: 2.5rem;
-
+    font-size: 3rem;
 }
 
 .evento_span {
@@ -936,7 +936,10 @@ p {
     border-bottom: 1px solid var(--gris);
 }
 
-
+.logo_evento{
+    font-size: 3.6rem;
+    font-style: italic;
+}
 
 /*/////////////////////////////////////*/
 
